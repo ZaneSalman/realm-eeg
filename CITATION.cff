@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: >-
+  Please cite this software when using REALM EEG. The associated framework
+  manuscript is unpublished.
+type: software
+title: "REALM EEG: Robust EEG Adaptation via Meta-Learning and Disentanglement Modules"
+version: 0.1.0
+date-released: 2026-07-15
+repository-code: "https://github.com/ZaneSalman/realm-eeg"
+license: Apache-2.0
+authors:
+  - given-names: Zane
+    family-names: Salman
+  - given-names: Ryan
+    family-names: Zeitouny
+  - given-names: Samer
+    family-names: Salman
+  - given-names: Ajay
+    family-names: Tripuraneni
+  - given-names: Vikram
+    family-names: Rao
+keywords:
+  - electroencephalography
+  - seizure detection
+  - domain-adversarial learning
+  - meta-learning
+  - interpretability
+abstract: >-
+  REALM EEG is an unpublished research reference implementation of a four-stage
+  framework for cross-patient EEG seizure detection: population pretraining,
+  adversarial patient-identity disentanglement, few-shot adaptation, and
+  prediction-level interpretability. Version 0.1.0 does not claim completed
+  patient-level empirical validation and is not intended for clinical use.

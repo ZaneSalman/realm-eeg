@@ -1,0 +1,21 @@
+REALM EEG
+
+Framework authors: Zane Salman et al.
+
+REALM expands to Robust EEG Adaptation via Meta-Learning and Disentanglement
+Modules. This repository contains an unpublished research reference
+implementation of the framework.
+
+Software source code is licensed under the Apache License, Version 2.0.
+Original repository documentation, figures, tables, and figure source-data CSVs
+are licensed under the Creative Commons Attribution 4.0 International Public
+License unless a file states otherwise. The associated manuscript and
+third-party material are not automatically covered by either repository license.
+
+EEG datasets are not distributed with this repository. Each dataset remains
+subject to its upstream access conditions, citation requirements, and license or
+data-use agreement. Institutional and product names are used for identification
+only and do not imply endorsement.
+
+This software is for research use only. It has not been clinically validated or
+approved as a medical device.

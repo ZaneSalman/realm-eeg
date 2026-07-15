@@ -1,0 +1,64 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "realm-eeg"
+version = "0.1.0"
+description = "Reference implementation of REALM for cross-patient EEG seizure detection"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Zane Salman" },
+  { name = "Ryan Zeitouny" },
+  { name = "Samer Salman" },
+  { name = "Ajay Tripuraneni" },
+  { name = "Vikram Rao" },
+]
+keywords = ["EEG", "epilepsy", "domain adaptation", "meta-learning", "seizure detection"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+  "numpy>=1.26",
+  "torch>=2.2",
+]
+
+[project.urls]
+Repository = "https://github.com/ZaneSalman/realm-eeg"
+Documentation = "https://github.com/ZaneSalman/realm-eeg/tree/main/docs"
+Issues = "https://github.com/ZaneSalman/realm-eeg/issues"
+
+[project.optional-dependencies]
+eeg = ["mne>=1.7", "scipy>=1.11"]
+figures = ["matplotlib>=3.8"]
+explain = ["matplotlib>=3.8", "shap>=0.45", "scikit-learn>=1.4", "umap-learn>=0.5"]
+dev = ["pytest>=8", "ruff>=0.5", "scipy>=1.11"]
+all = [
+  "mne>=1.7",
+  "scipy>=1.11",
+  "matplotlib>=3.8",
+  "shap>=0.45",
+  "scikit-learn>=1.4",
+  "umap-learn>=0.5",
+]
+
+[project.scripts]
+realm-eeg = "realm_eeg.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/realm_eeg"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

@@ -1,0 +1,78 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Environments and packaging
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.credentials*
+
+# Editors and operating systems
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Private manuscripts and working documents
+*.doc
+*.docx
+*.pdf
+*.odt
+*.rtf
+~$*
+paper/drafts/
+paper/private/
+
+# EEG data and derived datasets: never commit source data
+data/
+datasets/
+*.edf
+*.bdf
+*.fif
+*.set
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Model artifacts and experiment output
+artifacts/
+checkpoints/
+weights/
+runs/
+outputs/
+logs/
+mlruns/
+wandb/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Notebooks
+.ipynb_checkpoints/

@@ -1,0 +1,11 @@
+Component,Simple CNN,CNN + Transfer,DANN Only,REALM (Ours)
+Seizure detection loss,✓ Transparent,✓ Transparent,✓ Transparent,✓ Transparent
+Learned backbone weights,✗ Black box,✗ Black box,✗ Black box,✗ Black box
+Adversarial objective (GRL),— N/A,— N/A,✓ Transparent,✓ Transparent
+MAML meta-learning objective,— N/A,— N/A,— N/A,✓ Transparent
+Backbone constrained adversarial,✗ No,✗ No,✓ Yes,✓ Yes
+Feature geometry verifiable,✗ No,✗ No,Partial,✓ Yes (t-SNE)
+SHAP attribution,✗ None,✗ None,✗ None,✓ Yes
+Attention visualization,✗ None,✗ None,✗ None,✓ Yes
+Feature space positioning,✗ None,✗ None,✗ None,✓ Yes
+Prediction-level explanation,✗ None,✗ None,✗ None,✓ Yes

@@ -1,0 +1,5 @@
+Stage,Backbone Role,Objective
+Stage 1 — Population Pretraining,Trained from scratch on diverse multi-patient data,Learn broad seizure-relevant EEG features across populations
+Stage 2 — Adversarial Disentanglement,Reshaped by adversarial pressure from gradient reversal,Unlearn patient identity; preserve seizure discriminability
+Stage 3 — Few-Shot Adaptation,Lightly fine-tuned on new patient support set via MAML,Personalize efficiently on top of generalized knowledge
+Stage 4 — Interpretability,"Queried by SHAP, attention visualization, feature positioning",Explain predictions in clinically legible terms
