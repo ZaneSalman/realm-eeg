@@ -6,9 +6,15 @@ message: >-
 type: software
 title: "REALM EEG: Robust EEG Adaptation via Meta-Learning and Disentanglement Modules"
 version: 0.1.0
-date-released: 2026-07-15
+date-released: 2026-07-16
+doi: "10.5281/zenodo.21386115"
 repository-code: "https://github.com/ZaneSalman/realm-eeg"
+repository-artifact: "https://zenodo.org/records/21386115"
 license: Apache-2.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21386114"
+    description: "Concept DOI for all versions of REALM EEG"
 authors:
   - given-names: Zane
     family-names: Salman

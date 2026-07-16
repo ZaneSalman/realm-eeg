@@ -10,10 +10,12 @@ project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - Nothing yet.
 
-## [0.1.0] - 2026-07-15
+## [0.1.0] - 2026-07-16
 
 Initial public source release. Scientific use and any subsequent release artifacts remain
 subject to the safeguards in `RELEASE_CHECKLIST.md`.
+
+Archived release: [10.5281/zenodo.21386115](https://doi.org/10.5281/zenodo.21386115).
 
 ### Added
 
