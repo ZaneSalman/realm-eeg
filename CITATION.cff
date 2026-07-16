@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 message: >-
-  Please cite this software when using REALM EEG. The associated framework
-  manuscript is unpublished.
+  Zane Salman and Ryan Zeitouny contributed equally to this work and share
+  first authorship. Please cite this software when using REALM EEG. The
+  associated framework manuscript is unpublished.
 type: software
 title: "REALM EEG: Robust EEG Adaptation via Meta-Learning and Disentanglement Modules"
 version: 0.1.0
