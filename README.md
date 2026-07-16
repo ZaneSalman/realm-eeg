@@ -1,5 +1,7 @@
 # REALM EEG
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21386114.svg)](https://doi.org/10.5281/zenodo.21386114)
+
 Reference implementation of **REALM — Robust EEG Adaptation via meta-Learning and
 disentanglement Modules** — a proposed four-stage framework for cross-patient seizure
 detection.
@@ -132,10 +134,18 @@ See [MODEL_CARD.md](MODEL_CARD.md), [docs/DATA_GOVERNANCE.md](docs/DATA_GOVERNAN
 
 ## Citation and licensing
 
-Software release metadata is in [CITATION.cff](CITATION.cff). The manuscript should be cited
-as unpublished until a persistent publication identifier is available.
+Software release metadata is in [CITATION.cff](CITATION.cff). REALM EEG v0.1.0 is preserved
+in Zenodo under the version-specific DOI
+[10.5281/zenodo.21386115](https://doi.org/10.5281/zenodo.21386115). The concept DOI
+[10.5281/zenodo.21386114](https://doi.org/10.5281/zenodo.21386114) resolves to the release
+series and should be used when referring to REALM EEG generally. The associated framework
+manuscript remains unpublished.
 
 Canonical source repository: [github.com/ZaneSalman/realm-eeg](https://github.com/ZaneSalman/realm-eeg)
+
+Suggested software citation: Salman Z, Zeitouny R, Salman S, Tripuraneni A, Rao V. REALM EEG:
+Robust EEG Adaptation via Meta-Learning and Disentanglement Modules. Version 0.1.0
+[software]. Zenodo. 2026. <https://doi.org/10.5281/zenodo.21386115>.
 
 Code is licensed under Apache-2.0. Documentation, generated figures, tables, and figure
 source-data CSVs are licensed under CC BY 4.0; see [NOTICE](NOTICE) and
